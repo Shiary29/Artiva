@@ -1,0 +1,28 @@
+contact page - feliciano contact page
+
+shop page - moststudio pricing page
+
+flip card making - https://youtu.be/uR7EbQImYmo
+
+***try - arallax background scrolling somewhere.
+
+
+
+###  DUE WORK ### 
+
+***each image e like comment add korte hbe
+***about page e blur pic page header background add korte hbe
+*** all footer size small korte hbe
+***all page title same korte hbe last e 
+
+** rounded button kotbo
+**sob kichute shadow dbo
+**insta alada popup window te korbo
+***whole bg thik korbo
+***about e flip card
+
+
+color codes:
+bg-#f0dac2
+bg-#e3c3a1
+bg-#e0d2c3, text-#3d3935
