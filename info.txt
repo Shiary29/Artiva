@@ -1,28 +1,21 @@
-contact page - feliciano contact page
+color code :::: total back wall ----->#e3dbd3 [black/ dark grey text on it]
 
-shop page - moststudio pricing page
+light shade box  ::: #f2e9e6 [dark grey box text]
 
-flip card making - https://youtu.be/uR7EbQImYmo
+dark onion shade box ::: #915757 [light shadde box text ]
 
-***try - arallax background scrolling somewhere.
-
-
-
-###  DUE WORK ### 
-
-***each image e like comment add korte hbe
-***about page e blur pic page header background add korte hbe
-*** all footer size small korte hbe
-***all page title same korte hbe last e 
-
-** rounded button kotbo
-**sob kichute shadow dbo
-**insta alada popup window te korbo
-***whole bg thik korbo
-***about e flip card
+dark grey box ::: #453838 [light shade box text]
 
 
-color codes:
-bg-#f0dac2
-bg-#e3c3a1
-bg-#e0d2c3, text-#3d3935
+
+color code :::: total back wall ----->#e3dbd3 [black/ dark grey text on it]
+
+light shade box  ::: #f2e9e6 [dark grey box text]
+
+dark onion shade box ::: #915757 [light shadde box text ]
+
+dark grey box ::: #453838 [light shade box text]
+
+https://shiary29.github.io/home.html
+
+

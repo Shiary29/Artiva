@@ -2,9 +2,9 @@
 /********* General CSS *********/
 /*******************************/
 
-/* *{
-    background-color: #999999;
-} */
+ /* *{
+    background-color: #e3dbd3;
+}  */
 
 
 body {
@@ -15,13 +15,20 @@ body {
     font-weight: 400;
 }
 
+.Button{
+    border-radius: 16px;
+    box-shadow:  -.25rem 0 1rem rgb(68, 68, 68);
+}
+
 h1,
 h2, 
 h3, 
 h4,
 h5, 
 h6 {
-    font-family: 'EB Garamond', serif;
+    /* font-family: 'EB Garamond', serif; */
+    /* new added */
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     font-style: italic;
     color: #121518;
@@ -41,7 +48,7 @@ a:focus {
 }
 
 .btn:focus {
-    box-shadow: none;
+    box-shadow:none;
 }
 
 .wrapper {
@@ -49,7 +56,8 @@ a:focus {
     width: 100%;
     max-width: 1366px;
     margin: 0 auto;
-    background: #ffffff;
+    /* background: #ffffff; */
+    background: #f2e9e6;
 }
 
 
@@ -86,7 +94,7 @@ a:focus {
 .top-bar {
     position: relative;
     height: 90px;
-    background: #000000;
+    background: #453838;
 }
 
 .top-bar .logo {
@@ -97,7 +105,7 @@ a:focus {
 
 .top-bar .logo h1 {
     margin: 0;
-    color: #aa9166;
+    color:#f2e9e6;
     font-size: 75px;
     line-height: 55px;
     font-weight: 800;
@@ -212,7 +220,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: #ffffff;
+    color: #453838;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -225,7 +233,7 @@ a:focus {
     margin-top: 0;
     border: 0;
     border-radius: 0;
-    background: #f8f9fa;
+    background: #f2e9e6;
 }
 
 .nav-bar .btn {
@@ -249,7 +257,8 @@ a:focus {
     
     .nav-bar,
     .nav-bar .navbar {
-        background: #121518 !important;
+        /* background: #121518 !important; */
+        background: #f2e9e6 !important;
     }
     
     .nav-bar .navbar-brand {
@@ -413,7 +422,8 @@ a:focus {
     margin-bottom: 45px;
     padding: 90px 0;
     text-align: center;
-    background: #aa9166; 
+    background:#915757; 
+    /* box-shadow: 0 5px 20px #000; */
     
 }
 
@@ -611,19 +621,24 @@ a:focus {
 
 .about .about-img {
     position: relative;
-    height: 100%;
-    padding: 10px;
-    background: #121518;
+    width: 300px;
+    height: 400px;
+    /* padding: 10px; */
+    background: #f5f6f8;
+    border-radius: 40px;
+    box-shadow: 0 5px 20px #915757;
 }
 
 .about .about-img img {
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 400px;
     object-fit: cover;
 }
 
 .about .about-text p {
-    font-size: 16px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+   
 }
 
 .about .about-text a.btn {
@@ -636,18 +651,17 @@ a:focus {
     text-transform: uppercase;
     color: #aa9166;
     border: 2px solid #aa9166;
-    border-radius: 0;
-    background: #121518;
+    border-radius: 10px;
+    background: #453838;
     transition: .3s;
+     box-shadow: 0 5px 10px #915757 ;
 }
 
-/* a.btn{
-    border-radius: 70%;
-} */
+
 
 .about .about-text a.btn:hover {
-    color: #121518;
-    background: #aa9166;
+    color: #453838;
+    background: #915757;
 }
 
 @media (max-width: 767.98px) {
@@ -671,8 +685,10 @@ a:focus {
     position: relative;
     width: 100%;
     text-align: center;
-    background: #121518;
+    background: #453838 ;
     margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px#915757;
 }
 
 .service .service-icon {
@@ -704,7 +720,7 @@ a:focus {
     padding: 25px 15px 15px 15px;
     font-size: 30px;
     font-weight: 600;
-    color: #aa9166;
+    color:#f2e9e6;
 }
 
 .service .service-item p {
@@ -722,16 +738,17 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
-    border: 2px solid #aa9166;
-    border-radius: 0;
-    background: #121518;
+    color: #f2e9e6;
+    border: 2px solid #f2e9e6;
+    border-radius: 20px;
+    background: #453838;
     transition: .3s;
+    box-shadow: 0 2px 2px #f2e9e6;
 }
 
 .service .service-item:hover a.btn {
-    color: #121518;
-    background: #aa9166;
+    color: #f2e9e6;
+    background:#915757;
 }
 
 
@@ -899,6 +916,8 @@ a:focus {
     height: 100%;
     padding: 10px;
     background: #121518;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px#915757;
 }
 
 .faqs .faqs-img img {
@@ -918,7 +937,7 @@ a:focus {
     margin-bottom: 15px;
     padding-top: 15px;
     border: none;
-    border-radius: 0;
+    border-radius: 20px;
     border-top: 1px solid #aa9166;
 }
 
@@ -951,6 +970,7 @@ a:focus {
     background: #121518;
     color: #aa9166;
     font-weight: 700;
+    border-radius: 20px;
 }
 
 .faqs .card-header [data-toggle="collapse"]:after {
@@ -990,7 +1010,7 @@ a:focus {
     text-transform: uppercase;
     color: #aa9166;
     border: 2px solid #aa9166;
-    border-radius: 0;
+    border-radius: 10px;
     background: #121518;
     transition: .3s;
 }
@@ -1196,6 +1216,7 @@ a:focus {
 .timeline {
     position: relative;
     padding: 45px 0;
+    /* box-shadow: 0 5px 20px #915757 ; */
 }
 
 .timeline .timeline-start {
@@ -1211,6 +1232,7 @@ a:focus {
     background: inherit;
     width: 50%;
     margin-top: -5px;
+    box-shadow: 0 5px 20px #915757 ;
 }
 
 .timeline .timeline-container.left {
@@ -1226,7 +1248,7 @@ a:focus {
     position: absolute;
     width: 15px;
     height: 5px;
-    background: #aa9166;
+    background:#f2e9e6;
     z-index: 1;
 }
 
@@ -1245,7 +1267,7 @@ a:focus {
     position: absolute;
     width: 15px;
     height: 5px;
-    background: #aa9166;
+    background: #f2e9e6;
     z-index: 1;
 }
 
@@ -1266,28 +1288,28 @@ a:focus {
 
 .timeline .timeline-container .timeline-content {
     padding: 30px;
-    background: #121518;
+    background:#453838;
     position: relative;
-    border-right: 5px solid #aa9166;
+    border-right: 5px solid #915757;
 }
 
 .timeline .timeline-container.right .timeline-content {
-    border-left: 5px solid #aa9166;
+    border-left: 5px solid #915757;
 }
 
 .timeline .timeline-container .timeline-content h2 {
     margin-bottom: 15px;
     font-size: 22px;
     font-weight: 600;
-    color: #aa9166;
+    color:  #f2e9e6;
 }
 
 .timeline .timeline-container .timeline-content h2 span {
     display: inline-block;
     margin-right: 15px;
     padding: 5px 10px;
-    color: #121518;
-    background: #aa9166;
+    color:#453838;
+    background: #f2e9e6;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
@@ -1326,7 +1348,7 @@ a:focus {
     
     .timeline .timeline-container.left .timeline-content,
     .timeline .timeline-container.right .timeline-content {
-        border-left: 5px solid #aa9166;
+        border-left: 5px solid #915757;
         border-right: none;
     }
 }
@@ -1338,7 +1360,7 @@ a:focus {
 .portfolio {
     position: relative;
     padding: 45px 0;
-    background: #ffffff;
+    background:#f2e9e6;
 }
 
 .portfolio #portfolio-flters {
@@ -1355,20 +1377,21 @@ a:focus {
     display: inline-block;
     margin: 5px;
     padding: 8px 15px;
-    color: #aa9166;
+    color:#f2e9e6;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
-    border-radius: 0;
-    background: #121518;
-    border: 2px solid #aa9166;
+    border-radius: 15px;
+    background: #453838;
+    border: 2px solid #915757;
     transition: .3s;
+    box-shadow: 0 5px 5px  #915757;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #aa9166;
-    color: #121518;
+    background:  #915757 ;
+    color:#f2e9e6;
 }
 
 .portfolio .load-more {
@@ -1407,6 +1430,7 @@ a:focus {
     width: 100%; 
     height: 100%; 
     object-fit: cover;
+    border-radius: 15px ;
 }
 
 .portfolio figure {
@@ -1465,6 +1489,10 @@ a:focus {
 /*******************************/
 /********* Contact CSS *********/
 /*******************************/
+
+
+
+
 .contact {
     position: relative;
     width: 100%;
@@ -1476,7 +1504,8 @@ a:focus {
     margin-bottom: 30px;
     width: 100%;
     padding: 30px;
-    background: #121518;
+     background:#453838; 
+     border-radius: 20px;
 }
 
 .contact .contact-item {
@@ -1487,6 +1516,8 @@ a:focus {
     align-items: flex-start;
     flex-direction: row;
     border: 2px solid #aa9166;
+    box-shadow: -.25rem 0 1rem #915757;
+    border-radius: 20px;
 }
 
 .contact .contact-item i {
@@ -1497,8 +1528,8 @@ a:focus {
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    color: #aa9166;
-    border: 2px solid #aa9166;
+    color: #f2e9e6;
+    border: 2px solid #f2e9e6;
 }
 
 .contact .contact-text {
@@ -1508,7 +1539,7 @@ a:focus {
 }
 
 .contact .contact-text h2 {
-    color: #aa9166;
+    color: #f2e9e6;
     font-size: 25px;
     font-weight: 600;
 }
@@ -1528,36 +1559,52 @@ a:focus {
     margin-bottom: 30px;
 }
 
+.form-group input
+{
+    border: none !important;
+}
+
+.formBox
+{
+    border-bottom: 1px solid #915757;
+}
 .contact .contact-form input {
     height: 60px;
-    border-radius: 0;
-    border-width: 2px;
-    border-color: #121518;
+    
+     /* border-radius: 0;
+    border-width: 2px;  */
+    border-color: #453838;
 }
 
 .contact .contact-form textarea {
     height: 190px;
     border-radius: 0;
-    border-width: 2px;
-    border-color: #121518;
+    border-width: 1px;
+    border-color:#915757;
+    border-radius: 20px;
 }
 
 .contact .contact-form .btn {
-    padding: 16px 35px;
+    padding: 12px 30px;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
-    background: #121518;
-    border: 2px solid #aa9166;
-    border-radius: 0;
+    color:#f2e9e6;
+    background: #453838;
+    border: 2px solid #f2e9e6;
+    border-radius: 20px;
     transition: .3s;
+    box-shadow: 0 5px 5px #915757;
 }
 
 .contact .contact-form .btn:hover {
-    color: #121518;
-    background: #aa9166;
+    color:#453838;
+    background: #915757;
+}
+.contact .contact-item:hover{
+    color:#453838;
+    background: #915757;
 }
 
 
@@ -1663,28 +1710,19 @@ a:focus {
     
     
     position: relative;
-    margin-top: 45px;
-    padding-top: 180px;
-    background: #121518;
+    margin-top: 35px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background:#453838;
     color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
 
 .footer .footer-about,
 .footer .footer-link,
 .footer .footer-contact {
     position: relative;
     margin-bottom: 45px;
-    color: #999999;
+    color:#f2e9e6;
 }
 
 .footer .footer-about h2,
@@ -1694,13 +1732,13 @@ a:focus {
     margin-bottom: 30px;
     font-size: 25px;
     font-weight: 600;
-    color: #aa9166;
+    color:#f2e9e6;
 }
 
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
-    color: #999999;
+    color:#f2e9e6;
     transition: .3s;
 }
 
@@ -1713,7 +1751,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #aa9166;
+    color: #f2e9e6;
     letter-spacing: 1px;
 }
 
@@ -1733,7 +1771,7 @@ a:focus {
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 18px;
-    color: #aa9166;
+    color:#f2e9e6;
 }
 
 .footer .footer-social a:last-child i {
@@ -1741,7 +1779,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #999999;
+    color:#f2e9e6;
 }
 
 .footer .footer-menu .f-menu {
@@ -1761,7 +1799,7 @@ a:focus {
 }
 
 .footer .footer-menu .f-menu a:hover {
-    color: #aa9166;
+    color:#f2e9e6;
 }
 
 .footer .footer-menu .f-menu a:last-child {
@@ -1777,7 +1815,7 @@ a:focus {
 
 .footer .copyright p {
     margin: 0;
-    color: #999999;
+    color: #f2e9e6;
 }
 
 .footer .copyright .col-md-6:last-child p {
@@ -1785,7 +1823,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #aa9166;
+    color: #f2e9e6;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -1801,3 +1839,88 @@ a:focus {
         text-align: center;
     }
 }
+
+/* image flip trying */
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  border: 1px solid #f1f1f1;
+  border-radius: 40px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  box-shadow: #756d6d;
+  
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(7, 7, 7);
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 40px;
+}
+
+.flip-card-back .flipsocial {
+  position: absolute;
+}
+
+.back-content{
+    text-align: center;
+    width: 100%;
+}
+
+.flipsocial{
+    margin: 20px, 0;
+}
+
+.flipsocial a{
+   
+    padding-top: 90%;
+    position: relative;
+    /* bottom: 50%; */
+    left: 35%;
+    display: inline-flex;
+    width : 40px;
+    height: 40px;
+    /* justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center; */
+    color: burlywood;
+}
+
+
+
+

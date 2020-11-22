@@ -102,5 +102,38 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
     
+
+    //im adding
+    const name = document.getElementById("name");
+    const email = document.getElementById("email");
+    const subject = document.getElementById("subject");
+    const message = document.getElementById("message");
+    const button = document.getElementById("button");
+
+    const database = firebase.database(); 
+
+    button.addEventListener('click', (e) =>{
+        e.preventDefault();
+
+        database.ref('/users/'+ name.value).set({
+
+            
+            email : email.value,
+            subject :subject.value,
+            message:message.value
+
+        });
+
+        document.getElementById('contactForm').request();
+
+    });
+
+
+    
+
+
+
+
+
 })(jQuery);
 
